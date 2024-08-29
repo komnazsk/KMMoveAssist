@@ -134,6 +134,6 @@ public class MoveClickListener implements Listener {
             moveDistance = UNIT_MOVE_DISTANCE;
         }
         playerMoveDistances.put(player, moveDistance);
-        player.sendMessage("[KMMoveAssist] Move Distance: " + moveDistance + " [bLock]");
+        player.sendMessage("[KMMoveAssist] Move Distance: " + moveDistance + " [block]");
     }
 }
