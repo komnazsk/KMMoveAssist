@@ -1,0 +1,4 @@
+name: KMMoveAssist
+version: '1.0-MC1.21'
+main: org.github.komnazsk.kmmoveassist.KMMoveAssist
+api-version: '1.21'
