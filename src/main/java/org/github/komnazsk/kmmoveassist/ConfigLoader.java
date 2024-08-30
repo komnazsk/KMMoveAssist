@@ -22,7 +22,7 @@ public class ConfigLoader {
         FileConfiguration config = plugin.getConfig();
         config.addDefault(CONFIG_KEY_MOVE_ITEM_STRING, DEFAULT_MOVE_ITEM_STRING);
         config.options().copyDefaults(true);
-        plugin.saveDefaultConfig();
+        plugin.saveConfig();
     }
 
     /**
